@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    padding: 20px 20px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.circle-one {
+    background-color: #f00;
+}
+
+.circle-two {
+    background-color: #00f;
+    margin-left: 20px;
+}
+
+.circle-three {
+    background-color: #0f0;
+    margin-left: 20px;
+}
+
+.circle-four {
+    background-color: #ff0;
+    margin-left: 20px;
+}
