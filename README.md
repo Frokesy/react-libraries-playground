@@ -1,2 +1,2 @@
 # gsap-playground
-Just my pronal space to learn GSAP
+Just my personal space to learn GSAP
