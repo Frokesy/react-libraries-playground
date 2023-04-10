@@ -1,8 +1,8 @@
-body {
+.circles {
     display: flex;
     flex-direction: row;
     min-width: 100vw;
-    min-height: 100vh;
+    min-height: 50vh;
     justify-content: center;
     align-items: center;
 }
@@ -30,4 +30,11 @@ body {
 .circle-four {
     background-color: #ff0;
     margin-left: 20px;
+}
+
+.box {
+    padding: 40px 30px;
+    border-radius: 10%;
+    background: purple;
+    width: 100px;
 }

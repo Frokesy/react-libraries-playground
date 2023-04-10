@@ -18,11 +18,11 @@ const gl = gsap.timeline({ repeat: -1 });
 
 
 //transform backgroundColors
-const bgTransformTl = gsap.timeline({ repeat: -1, duration: 1, yoyo: true, ease: "ease" });
-bgTransformTl.to(".circle-one", { background: "#ff0" })
-bgTransformTl.to(".circle-two", { background: "#0f0" })
-bgTransformTl.to(".circle-three", { background: "#00f" })
-bgTransformTl.to(".circle-four", { background: "#f00" })
+// const bgTransformTl = gsap.timeline({ repeat: -1, defaults: { duration: 0.5 }, yoyo: true, ease: "ease" });
+// bgTransformTl.to(".circle-one", { background: "#ff0" })
+// bgTransformTl.to(".circle-two", { background: "#0f0" })
+// bgTransformTl.to(".circle-three", { background: "#00f" })
+// bgTransformTl.to(".circle-four", { background: "#f00" })
 
 // let obj = { myNum: 10, myColor: "red" };
 // gsap.to(obj, {
@@ -30,3 +30,11 @@ bgTransformTl.to(".circle-four", { background: "#f00" })
 //     myColor: "blue",
 //     onUpdate: () => console.log(obj.myNum, obj.myColor)
 // });
+
+//working with callBacks
+// gsap.to(".box", {
+//     duration: 3,
+//     x: 1000,
+//     ease: "easeIn",
+//     onComplete: () => console.log("Tween is complete")
+// })
