@@ -1,2 +1,1 @@
-# gsap-playground
-Just my personal space to learn GSAP
+My personal gsap-react playground
