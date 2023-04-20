@@ -24,6 +24,11 @@ const gl = gsap.timeline({ repeat: -1 });
 // bgTransformTl.to(".circle-three", { background: "#00f" })
 // bgTransformTl.to(".circle-four", { background: "#f00" })
 
+//loader animation
+const loaderAnimation = gsap.timeline({ repeat: -1, defaults: { duration: 0.05 }, yoyo: true, ease: "easeIn" });
+loaderAnimation.to(".loader-child", { opacity: "0.7", stagger: 0.25 })
+loaderAnimation.to(".loader-child", { opacity: "0.3", stagger: 0.25 })
+
 // let obj = { myNum: 10, myColor: "red" };
 // gsap.to(obj, {
 //     myNum: 200,

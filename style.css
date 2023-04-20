@@ -7,6 +7,22 @@
     align-items: center;
 }
 
+.loader {
+    display: flex;
+    flex-direction: row;
+    min-width: 100vw;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-child {
+    background-color: #00f;
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+
 .circle {
     padding: 20px 20px;
     border-radius: 50%;
