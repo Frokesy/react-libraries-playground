@@ -7,26 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frokesy's GSAP Playground</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
-    <div class="circles">
-        <div class="circle circle-one"></div>
-        <div class="circle circle-two"></div>
-        <div class="circle circle-three"></div>
-        <div class="circle circle-four"></div>
-    </div>
-
-    <div class="loader">
-        <div class="loader-child"></div>
-        <div class="loader-child"></div>
-        <div class="loader-child"></div>
-    </div>
-
-    <div class="box"></div>
-
-    <script src="script.js"></script>
+    <span id="element"></span>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['First sentence.', '&amp; a second sentence.'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
 
 </html>
